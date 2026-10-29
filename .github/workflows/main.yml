@@ -1,5 +1,4 @@
 name: Test CI simple
-
 on:
 push:
 workflow_dispatch:
