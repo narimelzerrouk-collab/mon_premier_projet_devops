@@ -1,6 +1,9 @@
 name: Test CI simple
 
-on: push
+"on":
+
+  push:
+  workflow_dispatch:
 
 jobs:
  test:
