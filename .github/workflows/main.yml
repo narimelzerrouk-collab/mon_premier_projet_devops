@@ -1,14 +1,10 @@
 name: Test CI simple
 
-on:
-push:
-branches:
-- master
-workflow_dispatch:
+on: push
 
 jobs:
-test:
-runs-on: ubuntu-latest
-steps:
-- name: Dire bonjour
-run: echo "Bonjour, la pipeline fonctionne !"
+ test:
+  runs-on: ubuntu-latest
+  steps:
+   - name: Dire bonjour
+     run: echo "Bonjour, la pipeline fonctionne !"
