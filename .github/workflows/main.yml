@@ -10,6 +10,5 @@ runs-on: ubuntu-latest
 steps:
 - name: Dire bonjour
 run: echo "Bonjour, ma pipeline CI fonctionne !"
-
 - name: Vérifier Python
 run: python --version
