@@ -12,4 +12,4 @@ steps:
 run: echo "Bonjour, ma pipeline CI fonctionne !"
 
 - name: Vérifier Python
-run: python --versio
+run: python --version
