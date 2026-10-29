@@ -8,3 +8,11 @@ jobs:
   steps:
    - name: Dire bonjour
      run: echo "Bonjour, la pipeline fonctionne !"
+
+    - name: Vérifier Python
+      uses: actions/setup-python@v5
+      with:
+       python-version: '3.x'
+
+    - name: Tester un calcul Python
+      run: python -c "print(2 + 3)"
